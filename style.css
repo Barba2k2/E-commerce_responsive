@@ -26,6 +26,13 @@ body {
     height: auto;
 }
 
+.bg2 {
+    background: url('image/bg-4.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
 .container {
     max-width: 1680px;
     margin: 0 auto;
@@ -33,6 +40,26 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 95vh;
+}
+
+.titlo{
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 40px;
+    text-shadow: 0 0 10px #545454;
+    color: #2b2b2b;
+}
+
+.line{
+    width: 80%;
+    height: 2px;
+    background: #17203f;
+    position: relative;
+    top: 40px;
 }
 
 .logo {
@@ -131,6 +158,20 @@ button:hover {
     right: 10px;
     padding: 5px 10px;
     background: #8b634a;
+}
+
+body::-webkit-scrollbar{
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track{
+    background: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #2b2b2b;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
 }
 
 /* --- Desktop Menu --- */
